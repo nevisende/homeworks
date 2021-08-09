@@ -1,0 +1,163 @@
+/* Rutin formatlama */
+* {
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-size: 100% 100%;
+	height: 100vh;
+	background: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 272px;
+	height: 92px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Header*/
+header ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header ul li {
+	padding: 15px;
+	
+}
+
+
+header ul  li img {
+	height: 20px;
+    padding: 0px;
+    width: 20px;
+}
+
+header ul .user {
+	border-radius: 50%;
+	background: #01579b;
+	padding: 10px 12px;
+	color: #fff;
+}
+
+header ul .user:hover {
+	text-decoration: none;
+}
+
+
+/*Main*/
+.body-center {
+	text-align: center;
+	margin-top: 25vh;
+}
+
+.body-center .google-image {
+	/*border: 2px solid green;*/
+	position: relative;
+}
+
+
+.body-center .google-image p {
+	position: absolute;
+	top: 55%;
+    left: 55.5%;
+    color: #4285f4
+}
+
+
+.body-center  input {
+	line-height: 27px;
+	padding: 4px;
+	width: 550px;
+	border: 1px solid #d9d9d9;
+    border-radius: 999px;
+}
+
+.body-center  input:hover {
+	border: 1px solid #332b2b;
+    border-radius: 999px;
+}
+
+.body-center  input:target {
+	border: 1px solid #332b2b;
+    border-radius: 999px;
+}
+
+main .body-center .btn a {
+	background: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+	text-align: center;
+	border-radius: 5px;
+	color: #757575;
+	padding: 10px 20px;
+	margin: 0px 3px;
+	border: 1px solid #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+}
+
+main .body-center .btn a:hover {
+	color: #757575;
+	text-decoration: none;
+	box-shadow: 1px 1px 3px #eee;
+	border: 1px solid #c6c6c6;
+}
+
+li {
+	list-style: none;
+}
+
+main .last ul {
+	display: flex;
+	text-align: center;
+	margin-left: 37.5%;
+}
+
+main .last ul a {
+	padding: 4px;
+	color: blue;
+}
+
+/*Footer*/
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+    color: #70757a;
+	background: #f2f2f2;
+}
+
+footer .right ul {
+	display: flex;
+	padding: 10px;
+}
+
+footer .left ul {
+	display: flex;
+	padding: 10px;
+}
+
+footer a {
+	padding: 10px 15px;
+}
