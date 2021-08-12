@@ -27,10 +27,13 @@ list.addEventListener(
   },
   false
 );
+let allElements = []
 
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("task").value;
+  allElements.push(inputValue)
+  localStorage.setItem("List",JSON.stringify(allElements))
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue.trim().length == 0) {
